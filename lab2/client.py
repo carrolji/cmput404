@@ -29,7 +29,7 @@ def get_request(addr):
             if not data: break
             full_data += data
         
-        #print("YAR",data)
+        #print(data)
         print(full_data)
         #print(s)
     except Exception as e:
